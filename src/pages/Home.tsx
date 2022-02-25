@@ -281,6 +281,11 @@ export const Home = () => {
           spacing='24px'
           w='100%'
           alignItems='stretch'
+          css={{
+            '::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }}
         >
           {dataPetrol.length > 0 &&
             dataPetrol.map((item: CardProps, idx: number) =>
@@ -317,6 +322,11 @@ export const Home = () => {
           spacing='24px'
           w='100%'
           alignItems='stretch'
+          css={{
+            '::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }}
         >
           {dataRentalRebate.length > 0 &&
             dataRentalRebate.map((item: CardProps, idx: number) =>
@@ -353,6 +363,11 @@ export const Home = () => {
           spacing='24px'
           w='100%'
           alignItems='stretch'
+          css={{
+            '::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }}
         >
           {dataFoodAndBeverage.length > 0 &&
             dataFoodAndBeverage.map((item: CardProps, idx: number) =>
