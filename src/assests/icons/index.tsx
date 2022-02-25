@@ -1,0 +1,9 @@
+export { ReactComponent as HomeIcon } from './Home.svg';
+export { ReactComponent as NotificationIcon } from './Notification.svg';
+export { ReactComponent as ProfileIcon } from './Profile.svg';
+export { ReactComponent as WalletIcon } from './Wallet.svg';
+export { ReactComponent as HomeIndicatorIcon } from './HomeIndicator.svg';
+export { ReactComponent as CircleIcon } from './Circle.svg';
+export { ReactComponent as CellularConnectionIcon } from './CellularConnection.svg';
+export { ReactComponent as WifiIcon } from './Wifi.svg';
+export { ReactComponent as BatteryIcon } from './Battery.svg';
